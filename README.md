@@ -48,6 +48,20 @@ Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
 - Highest run scorer: **V Kohli (8014 runs)**
 - Most wickets: **YS Chahal (213 wickets)**
 
+
+## Minor Project — Power BI Dashboards
+Three interactive dashboards built using Microsoft Power BI:
+
+| Dashboard | Dataset Source |
+|-----------|---------------|
+| IPL_Dashboard.pbix | Kaggle — IPL Complete Dataset (Same matches and deliveries dataset i used for EDA) |
+| Ecommerce_Dashboard.pbix | Kaggle — Ecommerce Sales Data |
+| COVID_Dashboard.pbix | Kaggle — covid-19-india by sudalairajkumar |
+
+
+> **Note:** To view dashboards, download .pbix files and open 
+> in Microsoft Power BI Desktop (free). PDF previews also available.
+
 ## Author
 ~ *Zeba Saiyed*
 
