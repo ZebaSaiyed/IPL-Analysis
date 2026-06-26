@@ -58,9 +58,13 @@ Three interactive dashboards built using Microsoft Power BI:
 | Ecommerce_Dashboard.pbix | Kaggle — Ecommerce Sales Data |
 | COVID_Dashboard.pbix | Kaggle — covid-19-india by sudalairajkumar |
 
+**Links for the Ecommerce & Covid datasets**
+Ecommerce: https://www.kaggle.com/datasets/uzmaakhtar/ecommerce-sales-data
+Covid: https://www.kaggle.com/datasets/sudalairajkumar/covid19-in-india
 
 > **Note:** To view dashboards, download .pbix files and open 
 > in Microsoft Power BI Desktop (free). PDF previews also available.
+
 
 ## Author
 ~ *Zeba Saiyed*
