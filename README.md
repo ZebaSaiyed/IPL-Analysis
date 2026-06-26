@@ -15,6 +15,8 @@ model for match win prediction.
 
 ## Tools Used
 Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
+## View Notebook Online
+👉 [View IPL_EDA.ipynb on nbviewer].**Link:** https://nbviewer.org/github/ZebaSaiyed/IPL-Analysis/blob/main/IPL_EDA.ipynb 
 
 ## Project Structure
 - Team Performance | Toss Analysis | Season Trends
