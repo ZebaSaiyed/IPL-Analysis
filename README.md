@@ -10,6 +10,8 @@ model for match win prediction.
 - **Source:** Kaggle
 - **matches.csv** — 1095 matches across 17 seasons
 - **deliveries.csv** — 260,920 ball by ball records
+- > **Note:** deliveries.csv (27.5MB) is not uploaded due to size. 
+> Download it from Kaggle: https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
 
 ## Tools Used
 Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
