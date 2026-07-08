@@ -14,7 +14,7 @@ model for match win prediction.
 > Download it from Kaggle: https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
 
 ## Tools Used
-Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
+Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | SQLite
 ## View Notebook Online
 👉 View IPL_EDA.ipynb on nbviewer.
 > **Link:** https://nbviewer.org/github/ZebaSaiyed/IPL-Analysis/blob/main/IPL_EDA.ipynb 
@@ -24,6 +24,7 @@ Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
 - Top Batsmen | Strike Rate | Top Bowlers | Economy Rate
 - Statistical Summary
 - Match Win Prediction (ML Model)
+- SQL Analysis (7 queries using SQLite)
 
 ## How to Run
 1. Clone or download this repository
@@ -50,6 +51,28 @@ Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
 - Average matches per season: **64.41**
 - Highest run scorer: **V Kohli (8014 runs)**
 - Most wickets: **YS Chahal (213 wickets)**
+
+
+## SQL Analysis
+Performed structured queries using SQLite to extract insights:
+- Most wins by team (all time)
+- Most wins batting first
+- Top venues by matches played
+- Highest average target runs by season
+- Top 10 run scorers
+- Top 10 wicket takers
+- Most wins after winning toss
+  
+
+## Key SQL Insights
+- Mumbai Indians dominate overall but Chennai Super Kings are the best "bat first and win" team with 35 wins
+- Eden Gardens is the most used IPL venue with 77 matches
+- IPL scoring has increased significantly — 2024 had highest average target of 190+ runs
+- Virat Kohli leads all-time run scoring with 8,014 runs
+- YS Chahal is the highest wicket taker with 213 wickets
+- Mumbai Indians win most matches after winning toss — 78 times
+- Data quality issue found: Wankhede Stadium appears under two different names in the dataset
+
 
 
 ## Minor Project — Power BI Dashboards
