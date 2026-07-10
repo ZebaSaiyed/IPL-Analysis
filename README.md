@@ -54,23 +54,28 @@ Jupyter Notebook | Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn
 
 
 ## SQL Analysis
-Performed structured queries using SQLite to extract insights:
+
+Performed structured queries using SQLite to extract insights, including multi-table JOINs combining match and delivery-level data:
+
 - Most wins by team (all time)
 - Most wins batting first
 - Top venues by matches played
 - Highest average target runs by season
-- Top 10 run scorers
-- Top 10 wicket takers
-- Most wins after winning toss
+- Top 10 run scorers (using ball-by-ball data)
+- Top 10 wicket takers (using ball-by-ball data)
+- Team totals at Eden Gardens *(JOIN — matches + deliveries)*
+- Batter performance by venue, highlighting home-ground trends *(JOIN — matches + deliveries)*
   
 
 ## Key SQL Insights
-- Mumbai Indians dominate overall but Chennai Super Kings are the best "bat first and win" team with 35 wins
-- Eden Gardens is the most used IPL venue with 77 matches
-- IPL scoring has increased significantly — 2024 had highest average target of 190+ runs
-- Virat Kohli leads all-time run scoring with 8,014 runs
-- YS Chahal is the highest wicket taker with 213 wickets
-- Mumbai Indians win most matches after winning toss — 78 times
+
+- **Mumbai Indians** dominate overall with most wins, but **Chennai Super Kings** are the best "bat first and win" team with 35 wins
+- **Eden Gardens** is the most used IPL venue with 77 matches
+- IPL scoring has increased significantly — 2024 had the highest average target of 190+ runs
+- **Virat Kohli** leads all-time run scoring with 8,014 runs
+- **YS Chahal** is the highest wicket taker with 213 wickets
+- **Kolkata Knight Riders** dominate their home ground, posting the highest single-innings totals at Eden Gardens (232, 218, 203 runs) — home advantage clearly reflected in the data
+- Batter-venue analysis reveals strong "home ground" patterns — **Virat Kohli** (1,874 runs at M. Chinnaswamy Stadium), **Rohit Sharma** (1,733 runs at Wankhede), and **MS Dhoni/Suresh Raina** (1,145/1,302 runs at MA Chidambaram Stadium) all rack up their highest totals at their own team's home venue
 - Data quality issue found: Wankhede Stadium appears under two different names in the dataset
 
 
